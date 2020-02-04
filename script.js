@@ -48,5 +48,36 @@ document.addEventListener("keypress",(event)=>{
             tomNoise.play()
         break
     }
-    
+})
+
+document.addEventListener("click",(event)=>{
+    switch (true) {
+        case event.target == boom:
+            boomNoise.play()
+        break
+        case event.target == clap:
+            clapNoise.play()
+        break
+        case event.target == hiHat:
+            hiHatNoise.play()
+        break
+        case event.target == kick:
+            kickNoise.play()
+        break
+        case event.target == openHat:
+            openHatNoise.play()
+        break
+        case event.target == ride:
+            rideNoise.play()
+        break
+        case event.target == snare:
+            snareNoise.play()
+        break
+        case event.target == tink:
+            tinkNoise.play()
+        break
+        case event.target == tom:
+            tomNoise.play()
+        break
+    }
 })
